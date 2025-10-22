@@ -34,7 +34,7 @@ The introduction of each <code> py </code> file is as follows:
 - <i>parse_args.py</i>: Configures command-line argument parsing for hyperparameter settings and experimental configurations.
 
 ## How to Run the Code:
-Please firstly download the datasets and ConvE embeddings, then unzip the downloaded file. Next, move the unzipped datasets into this folder. The commands to train DiGGS on the OpenBioLink, PrimeKG or BioKG are as follows.
+Please firstly download the datasets and ConvE embeddings, then unzip the downloaded file. Next, move the unzipped files into this folder. The commands to train DiGGS on the OpenBioLink, PrimeKG or BioKG are as follows.
 
 <ul>
 <li>OpenBioLink<pre><code>python main.py --dataset = OpenBioLink</code></pre>
