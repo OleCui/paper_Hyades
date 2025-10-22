@@ -32,3 +32,16 @@ The introduction of each <code> py </code> file is as follows:
 - <i>model_train.py</i>: Implements the training framework including metrics calculation, early stopping mechanism, and model evaluation procedures.
 - <i>model.py</i>: Defines the decoupled hypergraph neural network architecture and drug-disease association predictor.
 - <i>parse_args.py</i>: Configures command-line argument parsing for hyperparameter settings and experimental configurations.
+
+## How to Run the Code:
+Please firstly download the datasets and ConvE embeddings, then unzip the downloaded file. Next, move the unzipped datasets into this folder. The commands to train DiGGS on the OpenBioLink, PrimeKG or BioKG are as follows.
+
+<ul>
+<li>OpenBioLink<pre><code>python main.py --dataset = OpenBioLink</code></pre>
+</li>
+<li>PrimeKG<pre><code>python main.py --dataset = PrimeKG</code></pre>
+</li>
+<li>BioKG<pre><code>python main.py --dataset = BioKG</code></pre>
+</li>
+</ul>
+</body></html>
