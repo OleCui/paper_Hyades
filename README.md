@@ -15,7 +15,7 @@ The codes are implemented and tested under the following development environment
 ## Datasets
 We verify the effectiveness of our proposed method on three large-scale benchmarks, i.e., PrimeKG, BioKG and DRKG.
 
-These datasets can be downloaded from [google drive](https://drive.google.com/drive/folders/1K7yE0mgQOZsKCcDM-k_rYZFYmKmxWbrZ). Herein, we elaborate on the corresponding data files.
+These datasets can be downloaded from [google drive](https://drive.google.com/file/d/1UmLlARXBLf5aL8apf1-9j4wXUX5_jo5Y/view?usp=drive_link). Herein, we elaborate on the corresponding data files.
 - <i>disease_to_idx.json</i>: The disease name to id mapping file.
 - <i>drug_to_idx.json</i>: The drug name to id mapping file.
 - <i>gene_to_idx.json</i>: The gene name to id mapping file.
