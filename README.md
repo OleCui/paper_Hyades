@@ -25,7 +25,7 @@ These datasets can be downloaded from [datasets](https://drive.google.com/drive/
 
 ## Code Files:
 The introduction of each <code> py </code> file is as follows:
-- <i>conve.py</i>: Generats initial node and hyperedge features.
+- <i>convE.py</i>: Generates the initial node and hyperedge features.
 - <i>dataloader.py</i>: Defines dataset classes and K-fold cross-validation data loaders for drug-disease association tasks.
 - <i>hypergraph_data.py</i>: Constructs hypergraph datasets from biomedical knowledge graphs and implements negative sampling strategies for drug-disease pairs.
 - <i>main.py</i>: Main entry point that orchestrates the training and evaluation pipeline with proper random seed initialization.
